@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+/*CECI EST TOUTE LA PAGE*/
+html{
+	scroll-behavior: smooth;
+}
+						*{
+							font-family:Montserrat ;
+						}
+
+						body{
+						margin: 0px auto;
+						background: #ADA996;  /* fallback for old browsers */
+						background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);   /*Chrome 10-25, Safari 5.1-6 */
+						background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+						scroll-behavior: smooth;}
+
+/*CECI EST LA BANNIERE*/
+						.top-page{
+							background: url('photo.jpg');
+							background-size: cover;
+							height: 400px;
+							padding-top: 20px;}
+											
+/*LE TIRE"PASSION MANGA*/
+						.big-title{
+							color:  whitesmoke;
+							font-size: 80px;
+							padding: 20px 40px;}
+/*CECI EST LA BARRE DE NAV*/
+						
+						header, nav .nav{
+							display: flex;
+							align-items: center;}						
+/*Menu de nav*/
+						nav.nav {
+							display: flex;
+							list-style: none;
+							margin-left: 30px;}
+/*LIEN DIRECTION NOS MEILLEURES VENTE*/
+						
+						a{
+							text-decoration: none;
+							color: white;}
+/*CECI EST LA DISPOSITION DU MENU DE NAV*/
+
+						nav.nav li {
+							color: white;
+							width: 250px;
+							text-decoration: underline;
+							font-size: 17px;}
+						
+/* logo DES DIFFÉRENTS SERVICES */
+						.services{
+							padding-bottom: 30px;
+							padding-top: 25px;
+							display: flex;
+							justify-content: space-around;
+							border-bottom: 1px solid #000;}
+
+
+/*TITRE NOS MEILLEURES VENTE MANGA*/
+						
+						.manga .h1{
+						text-align: center;}
+
+/* BOITE MEILLEURE VENTE MANGA*/
+						.manga{
+							display: flex;
+							flex: wrap;
+							justify-content: space-around;
+							padding-bottom: 75px;
+							padding-bottom: 5px;}
+/*MEILLEURE VENTE MANGA*/
+						.image{
+							border: 3px solid  #474747 ;
+							border-radius: 5px;
+							margin: auto;
+							padding: 5px;}
+/*EFFET DE ZOOM SUR MANGA*/
+						.image{
+							transform: scale(1.0);
+							transition: 0.8s ease-in-out;}
+						.image:hover{
+							transform: scale(1.1);
+							transform: scale(1.1);}
+						
+/*TITRE MEILLEURES VENTE JV*/
+						h2{
+							text-align: center;
+							padding-bottom: 25px;
+							padding-top: 25px;}
+/*BOITE MEILLEURE JV*/
+
+						.JV{
+							display: flex;
+							flex: wrap;
+							align-items: center;
+							justify-content: space-around;}
+/*MEILLEURE VENTES JV*/
+												
+						.jv{
+							border: 3px solid #474747;
+							border-radius: 5px;
+							padding: 5px;}
+/*EFFET DE ZOOM JV*/
+
+						.jv{
+							transform: scale(1.0);
+							transition: 0.8s ease-in-out;}
+						.jv:hover{
+							transform: scale(1.13);
+							transform: scale(1.1)3;}
+
+/*Pied de page*/
+						footer{
+							padding-top: 25px;
+							height: 200px;
+							display: flex;
+							flex-direction: row;
+							justify-content: space-around;
+						}
+/*COORDONNÉES*/
+						h3{
+							text-decoration: underline 1px #000;
+						}
+						.contact{
+							list-style: none;
+							flex-direction: row;
+							display: flex;
+							align-items: center;
+						}
+
+/*RÉSEAUX SOCIAUX*/
+						.réseaux{
+							list-style: none;
+							flex-direction: row;
+							display: flex;
+							align-items: center;}
+						.cont{
+							border: 1px solid #000;
+							border-radius: 10px;
+							padding-right: 10px;
+						}
+
+						
+
+						
+							
+
+						
+							
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BOITE MEILLEURE FIGURINE*/
+
+						.slide{
+							padding: 2px;
+							height: 550px;
+						}
+
+						.slides{
+							display: flex;
+							flex-direction: row;
+							animation: glisse 25s infinite ease;}
+						@keyframes glisse{
+							
+	0%{	transform: translateX(0px);
+	}
+	20%{
+		transform: translateX(-762.5px);
+	}
+	40%{
+		transform: translateX(-1525px);
+	}
+	60%{
+		transform: translateX(-2287px);
+	}
+	80%{
+		transform: translateX(-3050px);
+	}
+	100%{
+		transform: translateX(0px);
+	}
+
+
+
+
